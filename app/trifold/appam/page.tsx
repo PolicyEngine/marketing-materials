@@ -22,7 +22,7 @@ export default function APPAMTrifold() {
           <div>
             <h3 className="text-xl font-bold text-pe-dark mb-4">Start Your Research</h3>
             <p className="text-sm mb-3">
-              Free, open-source microsimulation for tax and benefit policy research.
+              <strong>Free</strong>, open-source microsimulation for tax and benefit policy research.
             </p>
             <p className="text-sm mb-4">
               Test hypotheses in seconds. Export publication-ready tables. Cite with confidence.
@@ -98,7 +98,7 @@ export default function APPAMTrifold() {
               <ul className="space-y-1 text-gray-700">
                 <li>Distributional tables by income decile</li>
                 <li>Poverty & inequality impacts</li>
-                <li>State-by-state comparisons</li>
+                <li>State & congressional district breakdowns</li>
                 <li>Marginal tax rate schedules</li>
                 <li>Winners & losers analysis</li>
                 <li>Budget scores with behavioral responses</li>
@@ -121,7 +121,7 @@ export default function APPAMTrifold() {
             <div className="text-center pt-3 border-t border-gray-200">
               <h3 className="font-bold text-base mb-2">Data & Methods</h3>
               <ul className="space-y-1 text-xs text-gray-700">
-                <li>Enhanced CPS with IRS PUF matching</li>
+                <li>Calibrated microdata from CPS, IRS PUF, ACS, SIPP & SCF</li>
                 <li>50,000+ households</li>
                 <li>Validated against IRS SOI & CBO</li>
               </ul>
@@ -181,12 +181,12 @@ export default function APPAMTrifold() {
         </div>
 
         {/* Right Panel: Join These Researchers */}
-        <div className="w-1/3 p-6 flex flex-col bg-gray-50">
+        <div className="w-1/3 p-6 flex flex-col bg-gray-100">
           <h2 className="text-2xl font-bold text-pe-dark mb-3 text-center">Join These Researchers</h2>
 
           <div className="mb-4 p-3 bg-white rounded-lg border border-gray-200">
             <p className="text-xs text-center text-gray-700">
-              <span className="font-semibold">Used in 50+ research papers</span><br/>
+              <span className="font-semibold">Used by researchers in 50+ papers</span><br/>
               <span className="font-semibold">Congressional testimony</span><br/>
               <span className="font-semibold">State legislative analysis</span>
             </p>
@@ -196,8 +196,8 @@ export default function APPAMTrifold() {
             Trusted by leading institutions:
           </p>
 
-          <div className="grid grid-cols-2 gap-3 flex-1 items-center">
-            <div className="flex items-center justify-center">
+          <div className="grid grid-cols-2 gap-2 flex-1 items-center">
+            <div className="flex items-center justify-center bg-white/50 p-2 rounded">
               <Image
                 src="/logos/organizations/nber.png"
                 alt="NBER"
@@ -206,7 +206,7 @@ export default function APPAMTrifold() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center bg-white/50 p-2 rounded">
               <Image
                 src="/logos/organizations/atlanta-fed.png"
                 alt="Atlanta Fed"
@@ -216,7 +216,7 @@ export default function APPAMTrifold() {
               />
             </div>
 
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center bg-white/50 p-2 rounded">
               <Image
                 src="/logos/organizations/georgetown.png"
                 alt="Georgetown"
@@ -225,7 +225,7 @@ export default function APPAMTrifold() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center bg-white/50 p-2 rounded">
               <Image
                 src="/logos/organizations/umich.png"
                 alt="UMich"
@@ -235,7 +235,7 @@ export default function APPAMTrifold() {
               />
             </div>
 
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center bg-white/50 p-2 rounded">
               <Image
                 src="/logos/organizations/pn3policy.png"
                 alt="Prenatal-to-3"
@@ -244,7 +244,7 @@ export default function APPAMTrifold() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center bg-white/50 p-2 rounded">
               <Image
                 src="/logos/organizations/niskanen-center.png"
                 alt="Niskanen"
@@ -254,7 +254,7 @@ export default function APPAMTrifold() {
               />
             </div>
 
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center bg-white/50 p-2 rounded">
               <Image
                 src="/logos/organizations/aei.png"
                 alt="AEI"
@@ -263,7 +263,7 @@ export default function APPAMTrifold() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center bg-white/50 p-2 rounded">
               <Image
                 src="/logos/organizations/ubicenter.png"
                 alt="UBI Center"
