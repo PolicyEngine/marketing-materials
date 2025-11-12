@@ -7,13 +7,19 @@ export default function Home() {
 
       <div className="space-y-4">
         <div className="border rounded-lg p-6">
-          <h2 className="text-2xl font-semibold mb-2">APPAM Trifold Brochure</h2>
-          <p className="text-gray-600 mb-4">Trifold brochure for APPAM conference</p>
+          <h2 className="text-2xl font-semibold mb-2">APPAM Trifold Brochure (Professional)</h2>
+          <p className="text-gray-600 mb-4">Professional trifold brochure for APPAM conference</p>
+          <Link
+            href="/trifold/appam-pro"
+            className="inline-block bg-pe-teal text-white px-6 py-2 rounded hover:bg-pe-teal-600 mr-4"
+          >
+            View Professional Version
+          </Link>
           <Link
             href="/trifold/appam"
-            className="inline-block bg-pe-teal text-white px-6 py-2 rounded hover:bg-pe-teal-600"
+            className="inline-block bg-gray-500 text-white px-6 py-2 rounded hover:bg-gray-600"
           >
-            View Brochure
+            View Original Version
           </Link>
         </div>
       </div>
