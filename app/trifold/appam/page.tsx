@@ -20,7 +20,16 @@ export default function APPAMTrifold() {
         {/* Left Panel: Back */}
         <div className="w-1/3 bg-white border-r border-gray-300 p-8 flex flex-col justify-between">
           <div>
-            <h3 className="text-xl font-bold text-pe-dark mb-4">Start Your Research</h3>
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-xl font-bold text-pe-dark">Start Your Research</h3>
+              <Image
+                src="/logos/profile_teal.svg"
+                alt="PolicyEngine"
+                width={30}
+                height={30}
+                className="opacity-70"
+              />
+            </div>
             <p className="text-sm mb-3">
               <strong>Free</strong>, open-source microsimulation for tax and benefit policy research.
             </p>
@@ -48,7 +57,14 @@ export default function APPAMTrifold() {
         </div>
 
         {/* Middle Panel: (fold flap) */}
-        <div className="w-1/3 bg-gradient-to-br from-pe-teal to-pe-teal-800 border-r border-gray-300">
+        <div className="w-1/3 bg-gradient-to-br from-pe-teal to-pe-teal-800 border-r border-gray-300 flex items-center justify-center">
+          <Image
+            src="/logos/profile_white.svg"
+            alt="PolicyEngine"
+            width={120}
+            height={120}
+            className="opacity-30"
+          />
         </div>
 
         {/* Right Panel: Cover */}
@@ -90,7 +106,16 @@ export default function APPAMTrifold() {
       <div className="w-[11in] h-[8.5in] mx-auto bg-white relative flex mt-8 print:mt-0">
         {/* Left Panel: What PolicyEngine Does */}
         <div className="w-1/3 border-r border-gray-300 p-6 flex flex-col">
-          <h2 className="text-2xl font-bold text-pe-dark mb-4 text-center">What PolicyEngine Does</h2>
+          <div className="text-center mb-4">
+            <Image
+              src="/logos/profile_teal.svg"
+              alt="PolicyEngine"
+              width={30}
+              height={30}
+              className="opacity-50 mx-auto mb-2"
+            />
+            <h2 className="text-2xl font-bold text-pe-dark">What PolicyEngine Does</h2>
+          </div>
 
           <div className="space-y-4 text-sm flex-1">
             <div className="text-center">
@@ -131,7 +156,16 @@ export default function APPAMTrifold() {
 
         {/* Middle Panel: Why Researchers Choose PolicyEngine */}
         <div className="w-1/3 border-r border-gray-300 p-6 flex flex-col">
-          <h2 className="text-2xl font-bold text-pe-dark mb-4 text-center">Why Researchers Choose PolicyEngine</h2>
+          <div className="text-center mb-4">
+            <Image
+              src="/logos/profile_teal.svg"
+              alt="PolicyEngine"
+              width={30}
+              height={30}
+              className="opacity-50 mx-auto mb-2"
+            />
+            <h2 className="text-2xl font-bold text-pe-dark">Why Researchers Choose PolicyEngine</h2>
+          </div>
 
           <div className="space-y-5 text-sm flex-1">
             <div>
@@ -182,7 +216,16 @@ export default function APPAMTrifold() {
 
         {/* Right Panel: Join These Researchers */}
         <div className="w-1/3 p-6 flex flex-col bg-gray-100">
-          <h2 className="text-2xl font-bold text-pe-dark mb-3 text-center">Join These Researchers</h2>
+          <div className="text-center mb-3">
+            <Image
+              src="/logos/profile_teal.svg"
+              alt="PolicyEngine"
+              width={30}
+              height={30}
+              className="opacity-50 mx-auto mb-2"
+            />
+            <h2 className="text-2xl font-bold text-pe-dark">Join These Researchers</h2>
+          </div>
 
           <div className="mb-4 p-3 bg-white rounded-lg border border-gray-200">
             <p className="text-xs text-center text-gray-700">
