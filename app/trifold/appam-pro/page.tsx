@@ -9,7 +9,7 @@ export default function APPAMProTrifold() {
       <div className="no-print fixed top-4 right-4 z-50">
         <button
           onClick={() => window.print()}
-          className="bg-[#2C8C8A] text-white px-6 py-2 rounded hover:bg-[#237471] shadow-lg"
+          className="bg-pe-teal-600 text-white px-6 py-2 rounded hover:bg-pe-teal-700 shadow-lg"
         >
           Print Brochure
         </button>
@@ -19,7 +19,7 @@ export default function APPAMProTrifold() {
       <div className="w-[11in] h-[8.5in] mx-auto bg-white relative flex print:break-after-page">
 
         {/* Left Panel: Start Simulating */}
-        <div className="w-1/3 bg-gradient-to-br from-[#39524E] to-[#2C8C8A] p-8 flex flex-col justify-between text-white">
+        <div className="w-1/3 bg-gradient-to-br from-pe-teal-800 to-pe-teal-600 p-8 flex flex-col justify-between text-white">
           <div>
             <h1 className="text-4xl font-bold mb-2 leading-tight">
               Start<br/>simulating
@@ -46,7 +46,7 @@ export default function APPAMProTrifold() {
         </div>
 
         {/* Middle Panel: Watermark */}
-        <div className="w-1/3 bg-gradient-to-br from-[#2C8C8A] to-[#3AACA9] flex items-center justify-center relative overflow-hidden">
+        <div className="w-1/3 bg-gradient-to-br from-pe-teal-600 to-pe-teal-400 flex items-center justify-center relative overflow-hidden">
           <div className="text-white/10 font-bold" style={{ fontSize: '200px', letterSpacing: '-20px' }}>
             PE
           </div>
@@ -56,7 +56,7 @@ export default function APPAMProTrifold() {
         </div>
 
         {/* Right Panel: Cover */}
-        <div className="w-1/3 bg-gradient-to-br from-[#3AACA9] to-[#2C8C8A] p-8 flex flex-col justify-between text-white">
+        <div className="w-1/3 bg-gradient-to-br from-pe-teal-400 to-pe-teal-600 p-8 flex flex-col justify-between text-white">
           <div>
             <Image
               src="/logos/white.svg"
@@ -97,7 +97,7 @@ export default function APPAMProTrifold() {
 
         {/* Left Panel: What PolicyEngine Does */}
         <div className="w-1/3 p-6 flex flex-col">
-          <h2 className="text-2xl font-bold text-[#2C8C8A] mb-6 text-center">
+          <h2 className="text-2xl font-bold text-pe-teal-600 mb-6 text-center">
             What<br/>PolicyEngine<br/>does
           </h2>
 
@@ -150,34 +150,34 @@ export default function APPAMProTrifold() {
 
         {/* Middle Panel: Why Researchers Choose PolicyEngine */}
         <div className="w-1/3 p-6 flex flex-col bg-gray-50/50">
-          <h2 className="text-2xl font-bold text-[#2C8C8A] mb-6 text-center">
+          <h2 className="text-2xl font-bold text-pe-teal-600 mb-6 text-center">
             Why researchers<br/>choose<br/>PolicyEngine
           </h2>
 
           <div className="space-y-4 text-sm flex-1">
             <div className="text-center">
-              <h3 className="font-bold text-[#2C8C8A] text-base mb-1">Fast</h3>
+              <h3 className="font-bold text-pe-teal-600 text-base mb-1">Fast</h3>
               <p className="text-gray-600 text-xs">
                 Test reforms in seconds. No coding required.<br/>Export results instantly.
               </p>
             </div>
 
             <div className="text-center">
-              <h3 className="font-bold text-[#2C8C8A] text-base mb-1">Comprehensive</h3>
+              <h3 className="font-bold text-pe-teal-600 text-base mb-1">Comprehensive</h3>
               <p className="text-gray-600 text-xs">
                 All 50 states + DC. Federal & state taxes. SNAP, Medicaid, ACA, SSI, and more.
               </p>
             </div>
 
             <div className="text-center">
-              <h3 className="font-bold text-[#2C8C8A] text-base mb-1">Reproducible</h3>
+              <h3 className="font-bold text-pe-teal-600 text-base mb-1">Reproducible</h3>
               <p className="text-gray-600 text-xs">
                 100% free and open source. Full legislative references. Web app or Python package.
               </p>
             </div>
 
             <div className="text-center">
-              <h3 className="font-bold text-[#2C8C8A] text-base mb-1">Accurate</h3>
+              <h3 className="font-bold text-pe-teal-600 text-base mb-1">Accurate</h3>
               <p className="text-gray-600 text-xs">
                 Integrated CPS, IRS PUF, ACS, SIPP, and SCF.<br/>
                 Calibrated to thousands of targets. Results by<br/>
@@ -209,7 +209,7 @@ export default function APPAMProTrifold() {
 
         {/* Right Panel: Join the Community */}
         <div className="w-1/3 p-6 flex flex-col">
-          <h2 className="text-2xl font-bold text-[#2C8C8A] mb-4 text-center">
+          <h2 className="text-2xl font-bold text-pe-teal-600 mb-4 text-center">
             Join the<br/>PolicyEngine<br/>community
           </h2>
 
