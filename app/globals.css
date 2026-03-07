@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
+@import "@policyengine/design-system/tokens.css";
 
 @theme {
-  --color-pe-teal: #319795;
-  --color-pe-teal-600: #2C7A7B;
-  --color-pe-teal-800: #234E52;
-  --color-pe-dark: #1D4044;
+  --color-pe-teal: var(--pe-color-primary-500);
+  --color-pe-teal-600: var(--pe-color-primary-600);
+  --color-pe-teal-700: var(--pe-color-primary-700);
+  --color-pe-teal-800: var(--pe-color-primary-800);
+  --color-pe-dark: var(--pe-color-primary-900);
+  --color-pe-teal-400: var(--pe-color-primary-400);
 }
 
 body {
