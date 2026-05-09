@@ -1,11 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "@policyengine/ui-kit/theme.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-body {
-  font-family: 'Inter', sans-serif;
+/* Tailwind v4 theme tokens — preserved from the legacy `tailwind.config.ts`
+   theme.extend block so utility classes (bg-pe-teal, text-pe-dark) keep the
+   PolicyEngine palette. */
+@theme {
+  --color-pe-teal: #319795;
+  --color-pe-teal-600: #2c7a7b;
+  --color-pe-teal-800: #234e52;
+  --color-pe-dark: #1d4044;
 }
 
 @page {
